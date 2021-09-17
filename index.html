@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <script>
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('Android') > 0) {
+  location.href = 'https://www.mystar-labo.jp/sp/';
+}
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2EZM9EWZLW"></script>
 <script>
@@ -9,6 +13,8 @@
   gtag('js', new Date());
 
   gtag('config', 'G-2EZM9EWZLW');
+</script>
+
 </script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
